@@ -1283,7 +1283,7 @@ header .row {
 header .top-bar {
   display: block;
   background: #000000;
-  min-width: 220px;
+  min-width: 312px;
   min-height: 66px;
   position: absolute;
   left: 90px;
@@ -1321,6 +1321,7 @@ header .logo a {
   width: 40px;
   height: 40px;
   margin-left: 20px;
+  margin-right: 8px;
   margin-top: 13px;
   display: block;
   position: relative;
@@ -1568,7 +1569,7 @@ header .logo a {
 }
 
 .intro-content .intro-position span::after {
-  content: "|";
+  /* content: "|"; */
   text-align: center;
   display: inline-block;
   padding: 0 8px 0 14px;
@@ -1576,7 +1577,7 @@ header .logo a {
 }
 
 .intro-content .intro-position span:first-child::before {
-  content: "|";
+  /* content: "|"; */
   text-align: center;
   display: inline-block;
   padding: 0 14px 0 8px;
